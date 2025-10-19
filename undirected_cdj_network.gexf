@@ -1,0 +1,2188 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-10-18">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="13" title="Average Weight" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="Role" type="string" />
+      <attribute id="1" title="First Name" type="string" />
+      <attribute id="2" title="Last Name" type="string" />
+      <attribute id="3" title="Net ID" type="string" />
+      <attribute id="4" title="Cornell email" type="string" />
+      <attribute id="5" title="CDJ Join Class" type="string" />
+      <attribute id="6" title="Graduation Year" type="long" />
+      <attribute id="7" title="Birthday" type="string" />
+      <attribute id="8" title="Major(s)" type="string" />
+      <attribute id="9" title="Role Type" type="string" />
+      <attribute id="10" title="Project" type="string" />
+      <attribute id="11" title="ID" type="long" />
+      <attribute id="12" title="Label" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Jason Wang" label="Jason Wang">
+        <attvalues>
+          <attvalue for="0" value="VP of Internal Affairs" />
+          <attvalue for="1" value="Jason" />
+          <attvalue for="2" value="Wang" />
+          <attvalue for="3" value="jcw348" />
+          <attvalue for="4" value="jcw348@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="4/27/2005" />
+          <attvalue for="8" value="Information Science" />
+          <attvalue for="9" value="Leadership" />
+          <attvalue for="10" value="Leadership" />
+          <attvalue for="11" value="29" />
+          <attvalue for="12" value="Jason Wang" />
+        </attvalues>
+      </node>
+      <node id="Nikhil Chinchalkar" label="Nikhil Chinchalkar">
+        <attvalues>
+          <attvalue for="0" value="President" />
+          <attvalue for="1" value="Nikhil" />
+          <attvalue for="2" value="Chinchalkar" />
+          <attvalue for="3" value="nsc49" />
+          <attvalue for="4" value="nsc49@cornell.edu" />
+          <attvalue for="5" value="FA23" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="5/6/2005" />
+          <attvalue for="8" value="Economics" />
+          <attvalue for="9" value="Leadership" />
+          <attvalue for="10" value="Leadership" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="Nikhil Chinchalkar" />
+        </attvalues>
+      </node>
+      <node id="Rithya Sriram" label="Rithya Sriram">
+        <attvalues>
+          <attvalue for="0" value="Project Coordinator" />
+          <attvalue for="1" value="Rithya" />
+          <attvalue for="2" value="Sriram" />
+          <attvalue for="3" value="ra596" />
+          <attvalue for="4" value="ra596@cornell.edu" />
+          <attvalue for="5" value="SP24" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="12/31/2004" />
+          <attvalue for="8" value="Computer Science" />
+          <attvalue for="9" value="Leadership" />
+          <attvalue for="10" value="Leadership" />
+          <attvalue for="11" value="25" />
+          <attvalue for="12" value="Rithya Sriram" />
+        </attvalues>
+      </node>
+      <node id="Carina Lau" label="Carina Lau">
+        <attvalues>
+          <attvalue for="0" value="Social Chair" />
+          <attvalue for="1" value="Carina" />
+          <attvalue for="2" value="Lau" />
+          <attvalue for="3" value="cl2623" />
+          <attvalue for="4" value="cl2623@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="11/29/2005" />
+          <attvalue for="8" value="Information Science &amp; Communication" />
+          <attvalue for="9" value="Leadership" />
+          <attvalue for="10" value="Leadership" />
+          <attvalue for="11" value="38" />
+          <attvalue for="12" value="Carina Lau" />
+        </attvalues>
+      </node>
+      <node id="Jenny Williams" label="Jenny Williams">
+        <attvalues>
+          <attvalue for="0" value="Editor in Chief" />
+          <attvalue for="1" value="Jenny" />
+          <attvalue for="2" value="Williams" />
+          <attvalue for="3" value="jhw276" />
+          <attvalue for="4" value="jhw276@cornell.edu" />
+          <attvalue for="5" value="SP24" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="8/16/2004" />
+          <attvalue for="8" value="English" />
+          <attvalue for="9" value="Leadership" />
+          <attvalue for="10" value="Editorial" />
+          <attvalue for="11" value="26" />
+          <attvalue for="12" value="Jenny Williams" />
+        </attvalues>
+      </node>
+      <node id="Rahi Dasgupta" label="Rahi Dasgupta">
+        <attvalues>
+          <attvalue for="0" value="VP of External Affairs" />
+          <attvalue for="1" value="Rahi" />
+          <attvalue for="2" value="Dasgupta" />
+          <attvalue for="3" value="rd589" />
+          <attvalue for="4" value="rd589@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="12/16/2004" />
+          <attvalue for="8" value="Information Science" />
+          <attvalue for="9" value="Leadership" />
+          <attvalue for="10" value="Leadership" />
+          <attvalue for="11" value="34" />
+          <attvalue for="12" value="Rahi Dasgupta" />
+        </attvalues>
+      </node>
+      <node id="Natalie Miller" label="Natalie Miller">
+        <attvalues>
+          <attvalue for="0" value="Project Lead" />
+          <attvalue for="1" value="Natalie" />
+          <attvalue for="2" value="Miller" />
+          <attvalue for="3" value="nxm2" />
+          <attvalue for="4" value="nxm2@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="2/18/2006" />
+          <attvalue for="8" value="Economics, Statistical Science" />
+          <attvalue for="9" value="Project Lead" />
+          <attvalue for="10" value="Consumer Data" />
+          <attvalue for="11" value="17" />
+          <attvalue for="12" value="Natalie Miller" />
+        </attvalues>
+      </node>
+      <node id="Arjun Maitra" label="Arjun Maitra">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Arjun" />
+          <attvalue for="2" value="Maitra" />
+          <attvalue for="3" value="asm366" />
+          <attvalue for="4" value="asm366@cornell.edu" />
+          <attvalue for="5" value="SP25" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="4/7/2006" />
+          <attvalue for="8" value="Math and Stats" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="The Recycling Lottery" />
+          <attvalue for="11" value="24" />
+          <attvalue for="12" value="Arjun Maitra" />
+        </attvalues>
+      </node>
+      <node id="Arianna Hsu" label="Arianna Hsu">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Arianna" />
+          <attvalue for="2" value="Hsu" />
+          <attvalue for="3" value="ach282" />
+          <attvalue for="4" value="ach282@cornell.edu" />
+          <attvalue for="5" value="SP25" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="3/5/2006" />
+          <attvalue for="8" value="ISST" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Small Business Boom" />
+          <attvalue for="11" value="32" />
+          <attvalue for="12" value="Arianna Hsu" />
+        </attvalues>
+      </node>
+      <node id="Milo Schlittgen-Li" label="Milo Schlittgen-Li">
+        <attvalues>
+          <attvalue for="0" value="Project Lead" />
+          <attvalue for="1" value="Milo" />
+          <attvalue for="2" value="Schlittgen-Li" />
+          <attvalue for="3" value="ms3626" />
+          <attvalue for="4" value="ms3626@cornell.edu" />
+          <attvalue for="5" value="SP24" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="1/12/2005" />
+          <attvalue for="8" value="Mathematics" />
+          <attvalue for="9" value="Project Lead" />
+          <attvalue for="10" value="The Recycling Lottery" />
+          <attvalue for="11" value="11" />
+          <attvalue for="12" value="Milo Schlittgen-Li" />
+        </attvalues>
+      </node>
+      <node id="Melody Qian" label="Melody Qian">
+        <attvalues>
+          <attvalue for="0" value="Project Lead" />
+          <attvalue for="1" value="Melody" />
+          <attvalue for="2" value="Qian" />
+          <attvalue for="3" value="mq93" />
+          <attvalue for="4" value="mq93@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="2/16/2006" />
+          <attvalue for="8" value="Public Policy" />
+          <attvalue for="9" value="Project Lead" />
+          <attvalue for="10" value="MyNuclearWaste" />
+          <attvalue for="11" value="10" />
+          <attvalue for="12" value="Melody Qian" />
+        </attvalues>
+      </node>
+      <node id="Marianna Ruggiero" label="Marianna Ruggiero">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Marianna" />
+          <attvalue for="2" value="Ruggiero" />
+          <attvalue for="3" value="mir46" />
+          <attvalue for="4" value="mir46@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="5/5/2006" />
+          <attvalue for="8" value="Government and Information Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Beats and Beliefs" />
+          <attvalue for="11" value="20" />
+          <attvalue for="12" value="Marianna Ruggiero" />
+        </attvalues>
+      </node>
+      <node id="Emi Labbe" label="Emi Labbe">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Emi" />
+          <attvalue for="2" value="Labbe" />
+          <attvalue for="3" value="ejl252" />
+          <attvalue for="4" value="ejl252@cornell.edu" />
+          <attvalue for="5" value="SP25" />
+          <attvalue for="6" value="2026" />
+          <attvalue for="7" value="8/4/2003" />
+          <attvalue for="8" value="Cognitive and Information Sciences" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Consumer Data" />
+          <attvalue for="11" value="36" />
+          <attvalue for="12" value="Emi Labbe" />
+        </attvalues>
+      </node>
+      <node id="Emily Fu" label="Emily Fu">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Emily" />
+          <attvalue for="2" value="Fu" />
+          <attvalue for="3" value="ef442" />
+          <attvalue for="4" value="ef442@cornell.edu" />
+          <attvalue for="5" value="FA23" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="3/26/2005" />
+          <attvalue for="8" value="Statistical Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Beats and Beliefs" />
+          <attvalue for="11" value="4" />
+          <attvalue for="12" value="Emily Fu" />
+        </attvalues>
+      </node>
+      <node id="Eden Maynard" label="Eden Maynard">
+        <attvalues>
+          <attvalue for="0" value="Project Lead" />
+          <attvalue for="1" value="Eden" />
+          <attvalue for="2" value="Maynard" />
+          <attvalue for="3" value="esm248" />
+          <attvalue for="4" value="esm249@cornell.edu" />
+          <attvalue for="5" value="SP25" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="10/15/2006" />
+          <attvalue for="8" value="Statistics" />
+          <attvalue for="9" value="Project Lead" />
+          <attvalue for="10" value="Undefeated Illusion" />
+          <attvalue for="11" value="18" />
+          <attvalue for="12" value="Eden Maynard" />
+        </attvalues>
+      </node>
+      <node id="Vivian Guo" label="Vivian Guo">
+        <attvalues>
+          <attvalue for="0" value="Project Lead" />
+          <attvalue for="1" value="Vivian" />
+          <attvalue for="2" value="Guo" />
+          <attvalue for="3" value="vjg32" />
+          <attvalue for="4" value="vjg32@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="5/21/2006" />
+          <attvalue for="8" value="Biometry and Statistics" />
+          <attvalue for="9" value="Project Lead" />
+          <attvalue for="10" value="Cardiovascular Risk" />
+          <attvalue for="11" value="12" />
+          <attvalue for="12" value="Vivian Guo" />
+        </attvalues>
+      </node>
+      <node id="Mei Knight" label="Mei Knight">
+        <attvalues>
+          <attvalue for="0" value="Project Lead" />
+          <attvalue for="1" value="Mei" />
+          <attvalue for="2" value="Knight" />
+          <attvalue for="3" value="mk2654" />
+          <attvalue for="4" value="mk2654@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="12/13/2006" />
+          <attvalue for="8" value="Stats" />
+          <attvalue for="9" value="Project Lead" />
+          <attvalue for="10" value="Beats and Beliefs" />
+          <attvalue for="11" value="31" />
+          <attvalue for="12" value="Mei Knight" />
+        </attvalues>
+      </node>
+      <node id="Remi Ladia" label="Remi Ladia">
+        <attvalues>
+          <attvalue for="0" value="Project Lead" />
+          <attvalue for="1" value="Remi" />
+          <attvalue for="2" value="Ladia" />
+          <attvalue for="3" value="rgl84" />
+          <attvalue for="4" value="rgl84@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="12/8/2005" />
+          <attvalue for="8" value="Computer Science" />
+          <attvalue for="9" value="Project Lead" />
+          <attvalue for="10" value="Small Business Boom" />
+          <attvalue for="11" value="23" />
+          <attvalue for="12" value="Remi Ladia" />
+        </attvalues>
+      </node>
+      <node id="Tianyi Chen" label="Tianyi Chen">
+        <attvalues>
+          <attvalue for="0" value="Project Lead" />
+          <attvalue for="1" value="Tianyi" />
+          <attvalue for="2" value="Chen" />
+          <attvalue for="3" value="tc757" />
+          <attvalue for="4" value="tc757@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="6/16/2006" />
+          <attvalue for="8" value="Biometry and Statistics" />
+          <attvalue for="9" value="Project Lead" />
+          <attvalue for="10" value="Mapping Biodiversity" />
+          <attvalue for="11" value="2" />
+          <attvalue for="12" value="Tianyi Chen" />
+        </attvalues>
+      </node>
+      <node id="Kayla Amkraut" label="Kayla Amkraut">
+        <attvalues>
+          <attvalue for="0" value="Project Lead" />
+          <attvalue for="1" value="Kayla" />
+          <attvalue for="2" value="Amkraut" />
+          <attvalue for="3" value="kna42" />
+          <attvalue for="4" value="kna42@cornell.edu" />
+          <attvalue for="5" value="FA24" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="3/20/2006" />
+          <attvalue for="8" value="Statistical science on the data science track" />
+          <attvalue for="9" value="Project Lead" />
+          <attvalue for="10" value="Beats and Beliefs" />
+          <attvalue for="11" value="33" />
+          <attvalue for="12" value="Kayla Amkraut" />
+        </attvalues>
+      </node>
+      <node id="Maia Forssman" label="Maia Forssman">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Maia" />
+          <attvalue for="2" value="Forssman" />
+          <attvalue for="3" value="mff59" />
+          <attvalue for="4" value="mff59@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="10/11/2005" />
+          <attvalue for="8" value="Computer Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Consumer Data" />
+          <attvalue for="11" value="28" />
+          <attvalue for="12" value="Maia Forssman" />
+        </attvalues>
+      </node>
+      <node id="Suchit Basineni" label="Suchit Basineni">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Suchit" />
+          <attvalue for="2" value="Basineni" />
+          <attvalue for="3" value="ssb278" />
+          <attvalue for="4" value="ssb278@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2029" />
+          <attvalue for="7" value="1/23/2007" />
+          <attvalue for="8" value="Computer Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="MyNuclearWaste" />
+          <attvalue for="11" value="22" />
+          <attvalue for="12" value="Suchit Basineni" />
+        </attvalues>
+      </node>
+      <node id="Ethan Yang" label="Ethan Yang">
+        <attvalues>
+          <attvalue for="0" value="Editor" />
+          <attvalue for="1" value="Ethan" />
+          <attvalue for="2" value="Yang" />
+          <attvalue for="3" value="ey283" />
+          <attvalue for="4" value="ey283@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="7/27/2006" />
+          <attvalue for="8" value="Information Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Editorial" />
+          <attvalue for="11" value="3" />
+          <attvalue for="12" value="Ethan Yang" />
+        </attvalues>
+      </node>
+      <node id="Steven Xu" label="Steven Xu">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Steven" />
+          <attvalue for="2" value="Xu" />
+          <attvalue for="3" value="yx735" />
+          <attvalue for="4" value="yx735@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="2/24/2006" />
+          <attvalue for="8" value="Biometry and Statistics" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Undefeated Illusion" />
+          <attvalue for="11" value="21" />
+          <attvalue for="12" value="Steven Xu" />
+        </attvalues>
+      </node>
+      <node id="Anna Kim" label="Anna Kim">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Anna" />
+          <attvalue for="2" value="Kim" />
+          <attvalue for="3" value="ak2825" />
+          <attvalue for="4" value="ak2825@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="11/29/2006" />
+          <attvalue for="8" value="Biometry and Statistics" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Beats and Beliefs" />
+          <attvalue for="11" value="16" />
+          <attvalue for="12" value="Anna Kim" />
+        </attvalues>
+      </node>
+      <node id="Elinor Tu" label="Elinor Tu">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Elinor" />
+          <attvalue for="2" value="Tu" />
+          <attvalue for="3" value="ejt74" />
+          <attvalue for="4" value="ejt74@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="4/27/2006" />
+          <attvalue for="8" value="Computer Science, Mathematics" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Mapping Biodiversity" />
+          <attvalue for="11" value="6" />
+          <attvalue for="12" value="Elinor Tu" />
+        </attvalues>
+      </node>
+      <node id="Isabella Reyes-Famous" label="Isabella Reyes-Famous">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Isabella" />
+          <attvalue for="2" value="Reyes-Famous" />
+          <attvalue for="3" value="imr34" />
+          <attvalue for="4" value="imr34@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="5/2/2006" />
+          <attvalue for="8" value="Information Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Consumer Data" />
+          <attvalue for="11" value="35" />
+          <attvalue for="12" value="Isabella Reyes-Famous" />
+        </attvalues>
+      </node>
+      <node id="Olivia Yu" label="Olivia Yu">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Olivia" />
+          <attvalue for="2" value="Yu" />
+          <attvalue for="3" value="qy265" />
+          <attvalue for="4" value="qy265@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2029" />
+          <attvalue for="7" value="3/17/2006" />
+          <attvalue for="8" value="CS &amp; Math" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Small Business Boom" />
+          <attvalue for="11" value="27" />
+          <attvalue for="12" value="Olivia Yu" />
+        </attvalues>
+      </node>
+      <node id="Karl Fadel" label="Karl Fadel">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Karl" />
+          <attvalue for="2" value="Fadel" />
+          <attvalue for="3" value="Kf386" />
+          <attvalue for="4" value="Kf386@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="1/5/2006" />
+          <attvalue for="8" value="Information Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Undefeated Illusion" />
+          <attvalue for="11" value="8" />
+          <attvalue for="12" value="Karl Fadel" />
+        </attvalues>
+      </node>
+      <node id="Eric Zhu" label="Eric Zhu">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Eric" />
+          <attvalue for="2" value="Zhu" />
+          <attvalue for="3" value="ez323" />
+          <attvalue for="4" value="ez323@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2029" />
+          <attvalue for="7" value="6/5/2007" />
+          <attvalue for="8" value="Biometry and Statistics" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Mapping Biodiversity" />
+          <attvalue for="11" value="14" />
+          <attvalue for="12" value="Eric Zhu" />
+        </attvalues>
+      </node>
+      <node id="Ivy Liu" label="Ivy Liu">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Ivy" />
+          <attvalue for="2" value="Liu" />
+          <attvalue for="3" value="il328" />
+          <attvalue for="4" value="il328@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="2/22/2006" />
+          <attvalue for="8" value="Information Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Cardiovascular Risk" />
+          <attvalue for="11" value="9" />
+          <attvalue for="12" value="Ivy Liu" />
+        </attvalues>
+      </node>
+      <node id="Tristan Albano" label="Tristan Albano">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Tristan" />
+          <attvalue for="2" value="Albano" />
+          <attvalue for="3" value="tja75" />
+          <attvalue for="4" value="tja75@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2029" />
+          <attvalue for="7" value="8/21/2007" />
+          <attvalue for="8" value="Information Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Mapping Biodiversity" />
+          <attvalue for="11" value="5" />
+          <attvalue for="12" value="Tristan Albano" />
+        </attvalues>
+      </node>
+      <node id="Winifred Agyei" label="Winifred Agyei">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Winifred" />
+          <attvalue for="2" value="Agyei" />
+          <attvalue for="3" value="wa77" />
+          <attvalue for="4" value="wa77@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2027" />
+          <attvalue for="7" value="1/9/2003" />
+          <attvalue for="8" value="Information Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="MyNuclearWaste" />
+          <attvalue for="11" value="30" />
+          <attvalue for="12" value="Winifred Agyei" />
+        </attvalues>
+      </node>
+      <node id="Rhea Barot" label="Rhea Barot">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Rhea" />
+          <attvalue for="2" value="Barot" />
+          <attvalue for="3" value="rab558" />
+          <attvalue for="4" value="rab558@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2029" />
+          <attvalue for="7" value="4/24/2007" />
+          <attvalue for="8" value="Economics" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Small Business Boom" />
+          <attvalue for="11" value="39" />
+          <attvalue for="12" value="Rhea Barot" />
+        </attvalues>
+      </node>
+      <node id="Manya Pradeep Narayan" label="Manya Pradeep Narayan">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Manya" />
+          <attvalue for="2" value="Pradeep Narayan" />
+          <attvalue for="3" value="mp2343" />
+          <attvalue for="4" value="mp2343@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2029" />
+          <attvalue for="7" value="4/26/2007" />
+          <attvalue for="8" value="Computer Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Undefeated Illusion" />
+          <attvalue for="11" value="7" />
+          <attvalue for="12" value="Manya Pradeep Narayan" />
+        </attvalues>
+      </node>
+      <node id="Adam Azevedo" label="Adam Azevedo">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Adam" />
+          <attvalue for="2" value="Azevedo" />
+          <attvalue for="3" value="aaa466" />
+          <attvalue for="4" value="aaa466@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2028" />
+          <attvalue for="7" value="8/30/2005" />
+          <attvalue for="8" value="Urban and Regional Studies" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="The Recycling Lottery" />
+          <attvalue for="11" value="37" />
+          <attvalue for="12" value="Adam Azevedo" />
+        </attvalues>
+      </node>
+      <node id="Isha Nagireddy" label="Isha Nagireddy">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Isha" />
+          <attvalue for="2" value="Nagireddy" />
+          <attvalue for="3" value="in76" />
+          <attvalue for="4" value="in76@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2029" />
+          <attvalue for="7" value="11/7/2006" />
+          <attvalue for="8" value="Biometry &amp; Statistics" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Cardiovascular Risk" />
+          <attvalue for="11" value="15" />
+          <attvalue for="12" value="Isha Nagireddy" />
+        </attvalues>
+      </node>
+      <node id="Natan Kramskiy" label="Natan Kramskiy">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Natan" />
+          <attvalue for="2" value="Kramskiy" />
+          <attvalue for="3" value="nk692" />
+          <attvalue for="4" value="nk692@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2029" />
+          <attvalue for="7" value="4/30/2007" />
+          <attvalue for="8" value="Bioengineering" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Cardiovascular Risk" />
+          <attvalue for="11" value="19" />
+          <attvalue for="12" value="Natan Kramskiy" />
+        </attvalues>
+      </node>
+      <node id="Wonjin Eum" label="Wonjin Eum">
+        <attvalues>
+          <attvalue for="0" value="Analyst" />
+          <attvalue for="1" value="Wonjin" />
+          <attvalue for="2" value="Eum" />
+          <attvalue for="3" value="we46" />
+          <attvalue for="4" value="we46@cornell.edu" />
+          <attvalue for="5" value="FA25" />
+          <attvalue for="6" value="2029" />
+          <attvalue for="7" value="1/17/2007" />
+          <attvalue for="8" value="Information Science" />
+          <attvalue for="9" value="Analyst" />
+          <attvalue for="10" value="Cardiovascular Risk" />
+          <attvalue for="11" value="13" />
+          <attvalue for="12" value="Wonjin Eum" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Jason Wang" target="Nikhil Chinchalkar" id="0">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Tianyi Chen" id="1">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Manya Pradeep Narayan" id="2">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Melody Qian" id="3">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Milo Schlittgen-Li" id="4">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Vivian Guo" id="5">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Wonjin Eum" id="6">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Natalie Miller" id="7">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Natan Kramskiy" id="8">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Marianna Ruggiero" id="9">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Steven Xu" id="10">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Suchit Basineni" id="11">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Remi Ladia" id="12">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Rithya Sriram" id="13">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Jenny Williams" id="14">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Olivia Yu" id="15">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Maia Forssman" id="16">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Rahi Dasgupta" id="17">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Mei Knight" id="18">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Kayla Amkraut" id="19">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Winifred Agyei" id="20">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jason Wang" target="Rhea Barot" id="21">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Rithya Sriram" id="22">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Rahi Dasgupta" id="23">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Vivian Guo" id="24">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Remi Ladia" id="25">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Tianyi Chen" id="26">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Suchit Basineni" id="27">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Steven Xu" id="28">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Olivia Yu" id="29">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Tristan Albano" id="30">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Winifred Agyei" id="31">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Rhea Barot" id="32">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Nikhil Chinchalkar" target="Wonjin Eum" id="33">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Rithya Sriram" target="Tianyi Chen" id="34">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Rithya Sriram" target="Vivian Guo" id="35">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Nikhil Chinchalkar" id="36">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Tianyi Chen" id="37">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Emily Fu" id="38">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Tristan Albano" id="39">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Ivy Liu" id="40">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Melody Qian" id="41">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Milo Schlittgen-Li" id="42">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Vivian Guo" id="43">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Wonjin Eum" id="44">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Natalie Miller" id="45">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Eden Maynard" id="46">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Marianna Ruggiero" id="47">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Steven Xu" id="48">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Rithya Sriram" id="49">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Jenny Williams" id="50">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Maia Forssman" id="51">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Jason Wang" id="52">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Mei Knight" id="53">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Kayla Amkraut" id="54">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Rahi Dasgupta" id="55">
+        <attvalues>
+          <attvalue for="13" value="5.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Isabella Reyes-Famous" id="56">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Emi Labbe" id="57">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Remi Ladia" id="58">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Suchit Basineni" id="59">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Ethan Yang" id="60">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Elinor Tu" id="61">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Olivia Yu" id="62">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Karl Fadel" id="63">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Eric Zhu" id="64">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Winifred Agyei" id="65">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Rhea Barot" id="66">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Manya Pradeep Narayan" id="67">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Isha Nagireddy" id="68">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Carina Lau" target="Natan Kramskiy" id="69">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Nikhil Chinchalkar" id="70">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Tianyi Chen" id="71">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Tristan Albano" id="72">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Karl Fadel" id="73">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Melody Qian" id="74">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Milo Schlittgen-Li" id="75">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Vivian Guo" id="76">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Natalie Miller" id="77">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Marianna Ruggiero" id="78">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Rithya Sriram" id="79">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Rahi Dasgupta" id="80">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Mei Knight" id="81">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Remi Ladia" id="82">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Kayla Amkraut" id="83">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Maia Forssman" id="84">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Suchit Basineni" id="85">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Steven Xu" id="86">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Olivia Yu" id="87">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Winifred Agyei" id="88">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Rhea Barot" id="89">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Manya Pradeep Narayan" id="90">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Jenny Williams" target="Natan Kramskiy" id="91">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Rahi Dasgupta" target="Tianyi Chen" id="92">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Rahi Dasgupta" target="Tristan Albano" id="93">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Rahi Dasgupta" target="Vivian Guo" id="94">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Rahi Dasgupta" target="Rithya Sriram" id="95">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Rahi Dasgupta" target="Remi Ladia" id="96">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Rahi Dasgupta" target="Winifred Agyei" id="97">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Rahi Dasgupta" target="Rhea Barot" id="98">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Natalie Miller" target="Nikhil Chinchalkar" id="99">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Natalie Miller" target="Tianyi Chen" id="100">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Natalie Miller" target="Vivian Guo" id="101">
+        <attvalues>
+          <attvalue for="13" value="6.0" />
+        </attvalues>
+      </edge>
+      <edge source="Natalie Miller" target="Rithya Sriram" id="102">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Natalie Miller" target="Rahi Dasgupta" id="103">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Natalie Miller" target="Remi Ladia" id="104">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Nikhil Chinchalkar" id="105">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Tianyi Chen" id="106">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Ethan Yang" id="107">
+        <attvalues>
+          <attvalue for="13" value="5.5" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Emily Fu" id="108">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Milo Schlittgen-Li" id="109">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Vivian Guo" id="110">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Natalie Miller" id="111">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Jason Wang" id="112">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Rithya Sriram" id="113">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Carina Lau" id="114">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Jenny Williams" id="115">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Rahi Dasgupta" id="116">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Melody Qian" id="117">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Eden Maynard" id="118">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Mei Knight" id="119">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Remi Ladia" id="120">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Kayla Amkraut" id="121">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Arjun Maitra" target="Emi Labbe" id="122">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arianna Hsu" target="Nikhil Chinchalkar" id="123">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arianna Hsu" target="Arjun Maitra" id="124">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arianna Hsu" target="Rithya Sriram" id="125">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Arianna Hsu" target="Jenny Williams" id="126">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arianna Hsu" target="Jason Wang" id="127">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arianna Hsu" target="Carina Lau" id="128">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arianna Hsu" target="Rahi Dasgupta" id="129">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arianna Hsu" target="Emi Labbe" id="130">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Arianna Hsu" target="Eden Maynard" id="131">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Arianna Hsu" target="Mei Knight" id="132">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Milo Schlittgen-Li" target="Nikhil Chinchalkar" id="133">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Milo Schlittgen-Li" target="Tianyi Chen" id="134">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Milo Schlittgen-Li" target="Rithya Sriram" id="135">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Milo Schlittgen-Li" target="Rahi Dasgupta" id="136">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Milo Schlittgen-Li" target="Vivian Guo" id="137">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Milo Schlittgen-Li" target="Remi Ladia" id="138">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Milo Schlittgen-Li" target="Olivia Yu" id="139">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Milo Schlittgen-Li" target="Winifred Agyei" id="140">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Milo Schlittgen-Li" target="Rhea Barot" id="141">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Milo Schlittgen-Li" target="Natalie Miller" id="142">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Melody Qian" target="Nikhil Chinchalkar" id="143">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Melody Qian" target="Tianyi Chen" id="144">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Melody Qian" target="Rithya Sriram" id="145">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Melody Qian" target="Rahi Dasgupta" id="146">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Melody Qian" target="Vivian Guo" id="147">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Melody Qian" target="Remi Ladia" id="148">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Melody Qian" target="Natalie Miller" id="149">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Nikhil Chinchalkar" id="150">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Tianyi Chen" id="151">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Milo Schlittgen-Li" id="152">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Vivian Guo" id="153">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Natalie Miller" id="154">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Rithya Sriram" id="155">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Rahi Dasgupta" id="156">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Melody Qian" id="157">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Mei Knight" id="158">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Remi Ladia" id="159">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Marianna Ruggiero" target="Steven Xu" id="160">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Nikhil Chinchalkar" id="161">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Tianyi Chen" id="162">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Emily Fu" id="163">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Milo Schlittgen-Li" id="164">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Natalie Miller" id="165">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Marianna Ruggiero" id="166">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Jenny Williams" id="167">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Jason Wang" id="168">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Rahi Dasgupta" id="169">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Rithya Sriram" id="170">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Melody Qian" id="171">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Vivian Guo" id="172">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emi Labbe" target="Isabella Reyes-Famous" id="173">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Nikhil Chinchalkar" id="174">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Tianyi Chen" id="175">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Jason Wang" id="176">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Rithya Sriram" id="177">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Jenny Williams" id="178">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Rahi Dasgupta" id="179">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Milo Schlittgen-Li" id="180">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Melody Qian" id="181">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Vivian Guo" id="182">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Mei Knight" id="183">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Kayla Amkraut" id="184">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Emily Fu" target="Natalie Miller" id="185">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Nikhil Chinchalkar" id="186">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Tianyi Chen" id="187">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Emily Fu" id="188">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Milo Schlittgen-Li" id="189">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Vivian Guo" id="190">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Natalie Miller" id="191">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Jason Wang" id="192">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Rithya Sriram" id="193">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Jenny Williams" id="194">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Rahi Dasgupta" id="195">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Isabella Reyes-Famous" id="196">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Isha Nagireddy" id="197">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eden Maynard" target="Natan Kramskiy" id="198">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Nikhil Chinchalkar" id="199">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Tianyi Chen" id="200">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Melody Qian" id="201">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Milo Schlittgen-Li" id="202">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Vivian Guo" id="203">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Natalie Miller" id="204">
+        <attvalues>
+          <attvalue for="13" value="5.5" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Remi Ladia" id="205">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Rithya Sriram" id="206">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Olivia Yu" id="207">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Rahi Dasgupta" id="208">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Mei Knight" target="Steven Xu" id="209">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Remi Ladia" target="Tianyi Chen" id="210">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Remi Ladia" target="Rithya Sriram" id="211">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Remi Ladia" target="Vivian Guo" id="212">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Tianyi Chen" target="Vivian Guo" id="213">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Tianyi Chen" target="Tristan Albano" id="214">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Nikhil Chinchalkar" id="215">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Milo Schlittgen-Li" id="216">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Vivian Guo" id="217">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Natalie Miller" id="218">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Marianna Ruggiero" id="219">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Mei Knight" id="220">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Rithya Sriram" id="221">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Rahi Dasgupta" id="222">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Melody Qian" id="223">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Tianyi Chen" id="224">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Kayla Amkraut" target="Steven Xu" id="225">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Maia Forssman" target="Nikhil Chinchalkar" id="226">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Maia Forssman" target="Milo Schlittgen-Li" id="227">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Maia Forssman" target="Vivian Guo" id="228">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Maia Forssman" target="Natalie Miller" id="229">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Maia Forssman" target="Rithya Sriram" id="230">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Maia Forssman" target="Rahi Dasgupta" id="231">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Ethan Yang" target="Nikhil Chinchalkar" id="232">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Ethan Yang" target="Mei Knight" id="233">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Ethan Yang" target="Jenny Williams" id="234">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Steven Xu" target="Tianyi Chen" id="235">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Anna Kim" target="Nikhil Chinchalkar" id="236">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Anna Kim" target="Jason Wang" id="237">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Anna Kim" target="Rithya Sriram" id="238">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Anna Kim" target="Rahi Dasgupta" id="239">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Anna Kim" target="Jenny Williams" id="240">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Anna Kim" target="Carina Lau" id="241">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Elinor Tu" target="Nikhil Chinchalkar" id="242">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Elinor Tu" target="Tianyi Chen" id="243">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Elinor Tu" target="Milo Schlittgen-Li" id="244">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Elinor Tu" target="Vivian Guo" id="245">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Elinor Tu" target="Maia Forssman" id="246">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Elinor Tu" target="Manya Pradeep Narayan" id="247">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Elinor Tu" target="Isha Nagireddy" id="248">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Elinor Tu" target="Jenny Williams" id="249">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isabella Reyes-Famous" target="Nikhil Chinchalkar" id="250">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Isabella Reyes-Famous" target="Milo Schlittgen-Li" id="251">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isabella Reyes-Famous" target="Natalie Miller" id="252">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isabella Reyes-Famous" target="Jenny Williams" id="253">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Isabella Reyes-Famous" target="Rahi Dasgupta" id="254">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isabella Reyes-Famous" target="Rithya Sriram" id="255">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isabella Reyes-Famous" target="Mei Knight" id="256">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Olivia Yu" target="Tianyi Chen" id="257">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Olivia Yu" target="Rithya Sriram" id="258">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Karl Fadel" target="Nikhil Chinchalkar" id="259">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Karl Fadel" target="Milo Schlittgen-Li" id="260">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Karl Fadel" target="Mei Knight" id="261">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eric Zhu" target="Nikhil Chinchalkar" id="262">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eric Zhu" target="Jason Wang" id="263">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eric Zhu" target="Rithya Sriram" id="264">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eric Zhu" target="Tianyi Chen" id="265">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eric Zhu" target="Isha Nagireddy" id="266">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eric Zhu" target="Steven Xu" id="267">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Eric Zhu" target="Jenny Williams" id="268">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Ivy Liu" target="Nikhil Chinchalkar" id="269">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Ivy Liu" target="Jenny Williams" id="270">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Ivy Liu" target="Rahi Dasgupta" id="271">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Ivy Liu" target="Steven Xu" id="272">
+        <attvalues>
+          <attvalue for="13" value="4.5" />
+        </attvalues>
+      </edge>
+      <edge source="Ivy Liu" target="Milo Schlittgen-Li" id="273">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Tristan Albano" target="Wonjin Eum" id="274">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Winifred Agyei" target="Wonjin Eum" id="275">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhea Barot" target="Wonjin Eum" id="276">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Manya Pradeep Narayan" target="Nikhil Chinchalkar" id="277">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Manya Pradeep Narayan" target="Rahi Dasgupta" id="278">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Manya Pradeep Narayan" target="Wonjin Eum" id="279">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Adam Azevedo" target="Nikhil Chinchalkar" id="280">
+        <attvalues>
+          <attvalue for="13" value="4.0" />
+        </attvalues>
+      </edge>
+      <edge source="Adam Azevedo" target="Milo Schlittgen-Li" id="281">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Adam Azevedo" target="Eric Zhu" id="282">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Adam Azevedo" target="Jenny Williams" id="283">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Adam Azevedo" target="Rahi Dasgupta" id="284">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Adam Azevedo" target="Jason Wang" id="285">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Adam Azevedo" target="Rithya Sriram" id="286">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Adam Azevedo" target="Carina Lau" id="287">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Adam Azevedo" target="Arjun Maitra" id="288">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isha Nagireddy" target="Nikhil Chinchalkar" id="289">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isha Nagireddy" target="Manya Pradeep Narayan" id="290">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isha Nagireddy" target="Wonjin Eum" id="291">
+        <attvalues>
+          <attvalue for="13" value="5.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isha Nagireddy" target="Rithya Sriram" id="292">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isha Nagireddy" target="Rahi Dasgupta" id="293">
+        <attvalues>
+          <attvalue for="13" value="2.0" />
+        </attvalues>
+      </edge>
+      <edge source="Isha Nagireddy" target="Natalie Miller" id="294">
+        <attvalues>
+          <attvalue for="13" value="2.5" />
+        </attvalues>
+      </edge>
+      <edge source="Isha Nagireddy" target="Suchit Basineni" id="295">
+        <attvalues>
+          <attvalue for="13" value="3.5" />
+        </attvalues>
+      </edge>
+      <edge source="Natan Kramskiy" target="Nikhil Chinchalkar" id="296">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Natan Kramskiy" target="Suchit Basineni" id="297">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+      <edge source="Natan Kramskiy" target="Rahi Dasgupta" id="298">
+        <attvalues>
+          <attvalue for="13" value="3.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
