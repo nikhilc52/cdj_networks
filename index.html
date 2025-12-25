@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Networks</title>
+    <link rel="stylesheet" href="website/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/doh4fbq.css">
+    <script type="text/javascript" src="website/LaTeXMathML.js">
+    </script>
+    <link rel="icon" type="image/png" href="visuals/general_post.png">
+    <!-- TODO: icon change above -->
+</head>
+
+<body>
+    <div class="header">
+        <h2>The Cornell Data Journal Network</h2>
+        <h3>All content written, coded, and arranged by <a href="https://nikhilchinchalkar.com/" target="_blank">
+                Nikhil Chinchalkar</a></h3>
+
+        <p>No Generative AI was used in the making of this project.</p>
+        <p>Dec. 25, 2025</p>
+    </div>
+
+    <div class="essay">
+        <h3>Introduction</h3>
+
+        <p>
+            Cornell Data Journal (CDJ) is a club consisting of around 40 people, whose goal is to provide students with
+            the opportunity to publish journalistic stories about specific topics in small groups, using data as the
+            main
+            piece of evidence for their narrative. Beyond technical experience, as a social club, CDJ also attempts to
+            provide
+            students with an opportunity to develop relationships with other people, form communities of like-minded
+            individuals,
+            and grow as a person.
+        </p>
+
+        <h3>Methodology</h3>
+
+        <p style="margin-bottom: 40px;">
+            But just how well does CDJ accomplish that growth? To assess this, in the fall of 2025, I surveyed each CDJ
+            member two different times: once at the beginning of the semester, during the very first general-body
+            meeting where new members were introduced (in September), and once at the end of the semester (in December),
+            to observe how their relationships varied across the three months they spent as a member of CDJ. Each survey
+            consisted of a series of around 40 questions (one for each member of the club) that asked a responder to
+            rate how well they knew a given person, using a Likert scale. For instance, a couple sample questions in the
+            survey
+            are as follows:
+        </p>
+
+        <div class="form">
+            <table>
+                <tr>
+                    <td style="border: 0px solid black;"></td>
+                    <td style="border-bottom-width: 2px;">I&#39;ve never seen/heard of this person before </td>
+                    <td style="border-bottom-width: 2px;">I recognize their face/name </td>
+                    <td style="border-bottom-width: 2px;">I&#39;ve spoken to them once before </td>
+                    <td style="border-bottom-width: 2px;">I&#39;ve spoken to them more than once before</td>
+                    <td style="border-bottom-width: 2px;">I speak with them at least once a week </td>
+                    <td style="border-bottom-width: 2px;">I speak with them everyday </td>
+                    <td style="border-bottom-width: 2px;">I am this person </td>
+                </tr>
+                <tr>
+                    <form>
+                        <td style="border-right-width: 2px;">Nikhil Chinchalkar</td>
+                        <td><input type="radio" name="row1" value="1"></td>
+                        <td><input type="radio" name="row1" value="2"></td>
+                        <td><input type="radio" name="row1" value="3"></td>
+                        <td><input type="radio" name="row1" value="4"></td>
+                        <td><input type="radio" name="row1" value="5"></td>
+                        <td><input type="radio" name="row1" value="6"></td>
+                        <td><input type="radio" name="row1" value="7"></td>
+                    </form>
+                </tr>
+                <tr>
+                    <td style="border-right-width: 2px;">Jenny Williams</td>
+                    <td><input type="radio" name="row2" value="1"></td>
+                    <td><input type="radio" name="row2" value="2"></td>
+                    <td><input type="radio" name="row2" value="3"></td>
+                    <td><input type="radio" name="row2" value="4"></td>
+                    <td><input type="radio" name="row2" value="5"></td>
+                    <td><input type="radio" name="row2" value="6"></td>
+                    <td><input type="radio" name="row2" value="7"></td>
+                </tr>
+                <tr>
+                    <td style="border-right-width: 2px;">Eden Maynard</td>
+                    <td><input type="radio" name="row3" value="1"></td>
+                    <td><input type="radio" name="row3" value="2"></td>
+                    <td><input type="radio" name="row3" value="3"></td>
+                    <td><input type="radio" name="row3" value="4"></td>
+                    <td><input type="radio" name="row3" value="5"></td>
+                    <td><input type="radio" name="row3" value="6"></td>
+                    <td><input type="radio" name="row3" value="7"></td>
+                </tr>
+            </table>
+        </div>
+
+        <p style="margin-top: 40px; margin-bottom: 40px;">
+            To convert the responses to something more quantitative, I converted each response to a weight value.
+        </p>
+
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Survey Value</th>
+                        <th>Assigned Weight</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>I speak with them everyday</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>I speak with them at least once a week</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>I&#39;ve spoken to them more than once before</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>I&#39;ve spoken to them once before</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>I recognize their face/name</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>I&#39;ve never seen/heard of this person before</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>I am this person</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p style="margin-top: 40px;">
+            Since all 38 members of CDJ filled out both forms, for a given relationship pair A - - B, there were two
+            weights: one for A rating their relationship with B and another for B rating their relationship with A. To
+            best accommodate for possible differences in relationship perspectives, I took the average of these pairs of
+            weights to produce an undirected graph.
+        </p>
+
+        <h3>General Analysis</h3>
+
+        <p>
+            After all the data was collected, processed, and exported into a graph file, I extracted both network
+            visualizations and metrics to evaluate the interconnectivity of the club.
+        </p>
+
+        <div class="image-container">
+            <p>Pre-semester Survey:</p>
+            <img src="visuals/general_pre.png">
+        </div>
+
+        <div class="image-container">
+            <p>Post-semester Survey:</p>
+            <img src="visuals/general_post.png">
+        </div>
+
+        <p>
+            The uppermost image is the initial survey data, taken at the very first meeting, and on the bottom is the
+            survey data from the very last meeting of the year. On top of providing some intuition for what the dataset
+            looks like at either stage of the survey, the above visuals also aid in understanding how the club has
+            grown. Each of the diagrams was constructed in Gephi, with edges representing connections between nodes
+            (people), with the thickness representing the weight of the self-identified strength of the relationship.
+            The nodes (representing club members) are sized according to the ranking of their weighted degrees, or the
+            sum of the edge weights they are connected to. To space nodes informatively, I used the <a
+                href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098679"
+                target="_blank">ForceAtlas2
+                algorithm</a>, which forms communities based on the edge weight data.
+        </p>
+
+        <p>
+            Clearly, connections between club members have strengthened over time: edges are more common and more thick
+            in the second survey’s data, and the spacing algorithm produced a much more tightly-knit graph. Beyond just
+            visual differences, I analyzed certain metrics to better evaluate the CDJ’s social growth.
+        </p>
+
+        <p>
+            The first of these metrics, <i>density</i>, is the most widely used for evaluating a network’s connectivity.
+            Density is the ratio of existing connections to all the possible connections in the network, so a perfectly
+            connected network where everyone knows everyone would have a density of 1 and a perfectly
+            <i>dis</i>connected
+            network where nobody knows anybody would have a density of 0. At the beginning of the year, the density of
+            CDJ was 0.256, meaning only around 26% of all possible connections were actually realized, but by the end of
+            the year, this number grew to 0.405. In other words, by December, a randomly selected pair of club members
+            have a 40.5% chance of having spoken at least once before, which is encouraging for a club of such large
+            size. It should be noted that these numbers can only be compared with other numbers <i>from CDJ itself</i>:
+            this
+            sort of analysis has not been done for other Cornell clubs. So while the 0.15 point increase in density is
+            certainly a good thing, it lacks a true ‘baseline’ for comparison.
+        </p>
+
+        <p>
+            Nonetheless, from both a leadership and outsider perspective, learning about how a large group that meets
+            once or twice a week grows is certainly useful. Another metric to measure growth is the <i>diameter</i> of
+            the
+            network. Essentially, the diameter of the network measures the longest path between any two nodes within the
+            network. So if the longest path between any nodes in the network was between nodes A and C, and that path
+            was A - - B - - C, then the diameter of the network would be 2. At the beginning of the semester, the
+            network diameter was 3, meaning that there were at most two degrees of separation between any pair of CDJ
+            analysts, but this dropped to 2 after the semester was over. Essentially, for any pair of people in CDJ,
+            there was only one other person required to ‘connect’ them. It should be noted that this metric calculation
+            is only possible for groups that are <i>connected</i>, meaning there does not exist a node with no
+            connections.
+            Luckily, even at the beginning of the year, everyone in CDJ had spoken to at least one other person in CDJ,
+            so this metric remains valid.
+        </p>
+
+        <p>
+            While both density and diameter are useful metrics, both ignore the weightage of edges, meaning that though
+            they illustrate network connectivity, they lack the context of the strength of connections that exist in the
+            network. To compensate for this, I consider the <i>average weighted degree</i> of each node in the graph. As
+            briefly described above, this metric computes the sum of the weight of each edge connected to a particular
+            node, then finds the average of that value across all the nodes. In September, this metric was 13.658 and
+            increased to 26.237 come December. While the growth in average weighted degree is certainly a positive
+            indicator of communal growth within the club, the numbers themselves are difficult to interpret without
+            additional context.
+        </p>
+
+        <p>
+            Consider the <i>average degree</i> (without weighting) of each node in the graph, which is equivalent to the
+            number
+            of connections the average person has. Near the beginning of the semester, the average person had 9.474
+            connections, but this rose dramatically to 15 at the end of the year. Using both the average degree and the
+            weighted average degree, I can recover the <i>average weight of an edge</i> which is just equal to the
+            quotient
+            $\frac{\mathrm{Avg. Weighted Degree}}{\mathrm{Avg. Degree}}$. Now, to start the academic year, the average
+            weight of a
+            connection was about 1.442, equivalent to speaking with someone <i>a couple</i> of times, but grew to 1.749
+            after the
+            semester concluded, about equal to speaking with another person <i>a few</i> times. Though slight, not only
+            did the
+            number of connections increase over the course of the semester, so did the strength of these connections.
+        </p>
+
+        <p>
+            The above analysis is summarized in the below chart. Essentially, through every metric, the club showed
+            growth in community formation.
+        </p>
+
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="border-bottom-width: 0px;"></th>
+                        <th>Pre-sem</th>
+                        <th>Post-sem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Density</td>
+                        <td> 0.256</td>
+                        <td>0.405</td>
+                    </tr>
+                    <tr>
+                        <td>Diameter </td>
+                        <td>3</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Avg. Weighted Degree</td>
+                        <td>13.658</td>
+                        <td>26.237</td>
+                    </tr>
+                    <tr>
+                        <td>Avg. Degree</td>
+                        <td>9.474</td>
+                        <td>15.000</td>
+                    </tr>
+                    <tr>
+                        <td>Avg. Edge Weight</td>
+                        <td>1.442</td>
+                        <td>1.749</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 style="margin-top: 40px;">Visual Analysis</h3>
+
+        <p>
+            While I initially stated that metrics can better evaluate the general club data, that does not mean that
+            visual analysis is futile. Consider the following visuals, which color nodes in both pre-semester and
+            post-semester networks by certain demographic information.
+        </p>
+
+        <div class="image-container">
+            <p>Pre-semester Survey (Colored by Join Class):</p>
+            <img src="visuals/pre_join_year.png">
+        </div>
+
+        <div class="image-container">
+            <p>Post-semester Survey (Colored by Join Class):</p>
+            <img src="visuals/post_join_year.png">
+        </div>
+
+        <p>
+            The above plots paint each node (person) by the semester that they joined CDJ. Clearly, at the start of the
+            year, the members with the most connections (at the center of the network) were all students who had been in
+            the club for at least one semester, while new members isolated on the outskirts. Since integration into the
+            club is a key objective for new members, seeing them more closely grouped with the other members (with
+            stronger connections) is an indicator of success. Still, it appears as if new members remain on the edges of
+            the network, though there might be an alternative explanation for that:
+        </p>
+
+        <div class="image-container">
+            <p>Post-semester Survey (Colored by Role):</p>
+            <img src="visuals/post_role.png">
+        </div>
+
+        <p>
+            The above chart colors each node by their <i>role</i>, either Leadership, Project Lead, or Analyst.
+            Leadership is
+            the group of people that are elected into positions to organize the club from the highest level
+            (communicating with project leads, presenting during meetings, etc.) and Project Leads manage a group of 3-4
+            Analysts working on a specific data science project. Hence, it makes intuitive sense to see Leadership
+            grouped in the middle, with the most connections, followed by a ‘ring’ of Project Leads, accompanied by each
+            of their Analysts. This semester, Leadership (including myself) elected to have the only Project Leads be
+            returning members who had more experience within CDJ, to allow the smoothest experience possible to new
+            students. Under that premise, having the new members on the outskirts of the graph is more a result of role
+            type rather than a deliberate lack of interaction.
+        </p>
+
+        <p>
+            Sorting Analysts and Project Leads by their specific project team reveals some more intriguing information:
+        </p>
+
+        <div class="image-container">
+            <p>Pre-semester Survey (Colored by Project):</p>
+            <img src="visuals/pre_project.png">
+        </div>
+
+        <div class="image-container">
+            <p>Post-semester Survey (Colored by Project):</p>
+            <img src="visuals/post_project.png">
+        </div>
+
+        <p>
+            The first survey (the higher of the two plots) was conducted before project teams were even pitched, let
+            alone formed, so it
+            is clear why there would be no correlation between a node’s location in the network and their project team
+            at the beginning of the semester. However, as soon as the meeting ended, teams were created. Analysts and
+            Project Leads met about every week (outside of ‘normal’ CDJ general-body meetings) to work on their
+            projects. The bottom network illustrates the result of those frequent interactions, with each node nearly
+            completely surrounded by their teammates. Such placement is both good and bad: on one hand, it is good that
+            team members are continually communicating, but on the other, there perhaps should be more encouraged
+            interaction outside of each project team to form a better <i>overall</i> community.
+        </p>
+
+        <h3>Conclusion</h3>
+
+        <p>
+            There are plenty of other statistics one could include to further analyze the network. One of which is using
+            eigenvector centralities, which measure the strength of connections in terms of connections with
+            well-connected others, to predict future Leadership positions. I was able to conduct that analysis for this
+            semester, but found the results somewhat disappointingly noisy. Both pre-semester and post-semester surveys
+            had people who did not consider applying for leadership positions with top eigenvector values and people who
+            <i>did</i> win their Leadership positions with relatively low eigenvector values. Perhaps it is a sign of
+            connections between people not being the end-all for “success” within this organization.
+        </p>
+
+        <p>
+            Regardless, it is fascinating to see how CDJ has grown over the course of the three months this set of
+            members have spent together. For future years, I will use this information to attempt to form an even better
+            community, even if it is true that connections are not the only thing that matters.
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>Created under <a href="https://cornelldatajournal.org/">Cornell Data Journal</a> by <a
+                href="https://nikhilchinchalkar.com/" target="_blank">
+                Nikhil Chinchalkar</a></p>
+
+        <p>All rights reserved. This organization is a registered student organization of <a
+                href="https://www.cornell.edu/" target="_blank">Cornell University.</a></p>
+
+
+        <a href="https://cornelldatajournal.org/"><img src="website/cdj_icon.png"></a>
+        <a href="https://nikhilchinchalkar.com/" target="_blank"><img src="website/lotus.png"></a>
+    </div>
+</body>
+
+</html>
