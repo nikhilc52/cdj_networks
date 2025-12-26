@@ -3,21 +3,18 @@
 }
 
 body {
-    overflow-x: hidden;
     /* need display:grid for Firefox/Safari centering */
     display: grid;
     /* need below line to fit 100% of HTML page for centering (mostly mobile issue) */
     grid-template-columns: 100%;
 }
 
-html{
-    overflow-x: hidden;
-}
-
 .header {
     display: flex;
     flex-direction: column;
     justify-self: center;
+    max-width: 85%;
+    width: 600px;
 
     h2 {
         font-family: "roboto-slab", serif;
@@ -45,13 +42,13 @@ html{
     }
 
     img {
+        z-index: -1;
         position: absolute;
-        top: -50px;
+        width: 80%;
+        height: auto;
+        top: -5vw;
         left: 50%;
         transform: translateX(-50%);
-        /* max-width: 85%; */
-        width: 900px;
-        z-index: -1;
     }
 }
 
