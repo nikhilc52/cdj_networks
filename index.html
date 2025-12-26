@@ -99,7 +99,7 @@
         </div>
 
         <p style="margin-top: 40px; margin-bottom: 40px;">
-            To convert the responses to something more quantitative, I converted each response to a weight value.
+            To parse the responses into something more quantitative, I converted each response to a weight value.
         </p>
 
         <div class="table">
@@ -172,7 +172,7 @@
             survey data from the very last meeting of the year. On top of providing some intuition for what the dataset
             looks like at either stage of the survey, the above visuals also aid in understanding how the club has
             grown. Each of the diagrams was constructed in Gephi, with edges representing connections between nodes
-            (people), with the thickness representing the weight of the self-identified strength of the relationship.
+            (people), and the thickness representing the weight of the self-identified strength of the relationship.
             The nodes (representing club members) are sized according to the ranking of their weighted degrees, or the
             sum of the edge weights they are connected to. To space nodes informatively, I used the <a
                 href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098679"
@@ -183,7 +183,7 @@
         <p>
             Clearly, connections between club members have strengthened over time: edges are more common and more thick
             in the second survey’s data, and the spacing algorithm produced a much more tightly-knit graph. Beyond just
-            visual differences, I analyzed certain metrics to better evaluate the CDJ’s social growth.
+            visual differences, I analyzed certain metrics to better evaluate CDJ’s social growth.
         </p>
 
         <p>
@@ -206,10 +206,10 @@
             once or twice a week grows is certainly useful. Another metric to measure growth is the <i>diameter</i> of
             the
             network. Essentially, the diameter of the network measures the longest path between any two nodes within the
-            network. So if the longest path between any nodes in the network was between nodes A and C, and that path
+            network. So if the longest path between any nodes was between nodes A and C, and that path
             was A - - B - - C, then the diameter of the network would be 2. At the beginning of the semester, the
             network diameter was 3, meaning that there were at most two degrees of separation between any pair of CDJ
-            analysts, but this dropped to 2 after the semester was over. Essentially, for any pair of people in CDJ,
+            analysts, but the diameter dropped to 2 after the semester was over. Essentially, for any pair of people in CDJ,
             there was only one other person required to ‘connect’ them. It should be noted that this metric calculation
             is only possible for groups that are <i>connected</i>, meaning there does not exist a node with no
             connections.
@@ -235,7 +235,7 @@
             connections, but this rose dramatically to 15 at the end of the year. Using both the average degree and the
             weighted average degree, I can recover the <i>average weight of an edge</i> which is just equal to the
             quotient
-            $\frac{\mathrm{Avg. Weighted Degree}}{\mathrm{Avg. Degree}}$. Now, to start the academic year, the average
+            $\frac{\mathrm{Avg. Weighted Degree}}{\mathrm{Avg. Degree}}$. To start the academic year, the average
             weight of a
             connection was about 1.442, equivalent to speaking with someone <i>a couple</i> of times, but grew to 1.749
             after the
@@ -309,7 +309,7 @@
         <p>
             The above plots paint each node (person) by the semester that they joined CDJ. Clearly, at the start of the
             year, the members with the most connections (at the center of the network) were all students who had been in
-            the club for at least one semester, while new members isolated on the outskirts. Since integration into the
+            the club for at least one semester, while new members were isolated on the outskirts. Since integration into the
             club is a key objective for new members, seeing them more closely grouped with the other members (with
             stronger connections) is an indicator of success. Still, it appears as if new members remain on the edges of
             the network, though there might be an alternative explanation for that:
@@ -328,7 +328,7 @@
             Analysts working on a specific data science project. Hence, it makes intuitive sense to see Leadership
             grouped in the middle, with the most connections, followed by a ‘ring’ of Project Leads, accompanied by each
             of their Analysts. This semester, Leadership (including myself) elected to have the only Project Leads be
-            returning members who had more experience within CDJ, to allow the smoothest experience possible to new
+            returning members who had spent more time within CDJ, to allow the smoothest experience possible to new
             students. Under that premise, having the new members on the outskirts of the graph is more a result of role
             type rather than a deliberate lack of interaction.
         </p>
@@ -350,8 +350,8 @@
         <p>
             The first survey (the higher of the two plots) was conducted before project teams were even pitched, let
             alone formed, so it
-            is clear why there would be no correlation between a node’s location in the network and their project team
-            at the beginning of the semester. However, as soon as the meeting ended, teams were created. Analysts and
+            is clear why there would be no correlation between a node’s location in the network and their project team,
+            at the beginning of the semester. However, as soon as the first meeting ended, teams were created. Analysts and
             Project Leads met about every week (outside of ‘normal’ CDJ general-body meetings) to work on their
             projects. The bottom network illustrates the result of those frequent interactions, with each node nearly
             completely surrounded by their teammates. Such placement is both good and bad: on one hand, it is good that
@@ -379,7 +379,7 @@
     </div>
 
     <div class="footer">
-        <p>Code for this project can be found at my <a href="https://github.com/nikhilc52/cdj_networks">GitHub
+        <p>Code for this project can be found in my <a href="https://github.com/nikhilc52/cdj_networks">GitHub
                 repository.</a></p>
 
         <p>Created under <a href="https://cornelldatajournal.org/">Cornell Data Journal</a>, a
