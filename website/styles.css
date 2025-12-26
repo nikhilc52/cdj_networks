@@ -10,6 +10,10 @@ body {
     grid-template-columns: 100%;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -146,6 +150,10 @@ a {
 
 .footer {
     margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 85%;
 
     font-family: "franklin-gothic-std", sans-serif;
     font-weight: 400;
