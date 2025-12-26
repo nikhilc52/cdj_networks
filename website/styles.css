@@ -2,9 +2,12 @@
     /* border: 1px red solid; */
 }
 
-body{
+body {
     overflow-x: hidden;
+    /* need display:grid for Firefox/Safari centering */
     display: grid;
+    /* need below line to fit 100% of HTML page for centering (mostly mobile issue) */
+    grid-template-columns: 100%;
 }
 
 .header {
@@ -42,6 +45,7 @@ body{
         top: -50px;
         left: 50%;
         transform: translateX(-50%);
+        /* max-width: 85%; */
         width: 900px;
         z-index: -1;
     }
